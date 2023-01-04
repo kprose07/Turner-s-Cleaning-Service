@@ -73,7 +73,7 @@ $(function(){
   
 	/* Set Interval to rotate */
 	var currentRotation = 0;
-	var rotateInterval = window.setInterval(function(){
+	 window.setInterval(function(){
 	  if(!rotateSlider.slidesContainer.hasClass('animate')){
 		rotateSlider.slidesContainer.addClass('animate')
 	  }

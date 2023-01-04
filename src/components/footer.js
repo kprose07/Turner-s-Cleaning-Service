@@ -2,7 +2,6 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
-import { Outlet} from "react-router-dom";
 import logo from '../img/logo.png';
 import '../css/foot.css';
 
@@ -44,7 +43,7 @@ export default function App() {
         
           <MDBCol md="3" lg="4" xl="3" id='colOne' className='mx-auto mb-4'>
           <Link to="/Home">
-          <img src={logo}></img>
+          <img src={logo} alt='logimg'></img>
           </Link>
           
             <p>

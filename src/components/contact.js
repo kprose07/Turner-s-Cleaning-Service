@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import {db} from '../firebase'
 import { useState } from 'react'
@@ -67,3 +68,4 @@ const Contact = () => {
 }
 
 export default Contact;
+*/
