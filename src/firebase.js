@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 
+>>>>>>> 8c78ecd4f8afb167f4b7da73ca82f93cc7de7705
 /*import firebase from 'firebase'
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -15,4 +18,8 @@ var firebaseApp = firebase.initializeApp({
 });
 
 var db = firebaseApp.firestore();
+<<<<<<< HEAD
+// export {db};*/
+=======
 export {db};*/
+>>>>>>> 8c78ecd4f8afb167f4b7da73ca82f93cc7de7705

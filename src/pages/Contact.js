@@ -1,13 +1,15 @@
 import React from 'react'
 import '../css/contact.css'
 
-import tp from '../img/tup.png'
+import tp from '../img/tt.jpg'
 import cheader from '../img/cheader.png'
 
 function Contact() {
   return (
     <div className='concontain'>
     <img id='cheader' src={cheader} alt='headerc' />
+    <div id='hrct'/>
+
     <div className='crow'>
     <div className='timgc'>
         <img src={tp} id='timg' alt='Turnner Proffesional' />

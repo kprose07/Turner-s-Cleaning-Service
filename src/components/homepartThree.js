@@ -10,11 +10,12 @@ import church from '../img/church.png'
 function homepartThree() {
   return (
     <>
+            <p className='head pth'>What Customers Say About Turner's Cleaning Services</p>
+
     <div id='carouselExample' className='carousel slide '>
   <div className='carousel-inner'>
     <div className='carousel-item active'>
     <div className='containFour'>
-        <p className='head'>What Customers Say About Turner's Cleaning Services</p>
         <div className='rBox'>
            <div className='reviewBox'>
                 <img id='quoteOP' src={quoteop} alt='"'/>
@@ -33,7 +34,7 @@ function homepartThree() {
                   <img id='imgHolder' src={od} alt='Office Depot'/>
             
                 <div className='subtitle'>
-                    <p id='bigt'>Home Depot</p>
+                    <p id='bigt'>Office Depot</p>
                     <p id='smallt'>General Manager</p>
                 </div>
                   <div className='infounder'>
@@ -53,13 +54,12 @@ function homepartThree() {
     </div>
     <div className='carousel-item'>
     <div className='containFour'>
-        <p className='head'>What Customers Say About Turner's Cleaning Services</p>
         <div className='rBox'>
            <div className='reviewBox'>
                 <img id='quoteOP' src={quoteop} alt='"'/>
-                <p id='review'>I have known ****** Turner of Turner Cleaning Services for
+                <p id='review'>I have known Turner of Turner Cleaning Services for
                  almost 10 years. He has contracted his services to our company for the last
-                  6 years. ****** has a good work ethic and has proven to be very trustworthy
+                  6 years. Mr.Turner has a good work ethic and has proven to be very trustworthy
                    and attentive to various tasks he is asked to perform. Often, we have 
                    asked for additional services for special events and he has almost always
                     accommodated us to meet our requests. I highly recommend Turner Cleaning 
@@ -89,11 +89,11 @@ function homepartThree() {
     </div>
     
   </div>
-  <button className='carousel-control-prev' type='button' data-bs-target='#carouselExample' data-bs-slide='prev'>
+  <button id='nextc' className='carousel-control-prev' type='button' data-bs-target='#carouselExample' data-bs-slide='prev'>
     <span className='carousel-control-prev-icon' aria-hidden='true'></span>
     <span className='visually-hidden'>Previous</span>
   </button>
-  <button className='carousel-control-next' type='button' data-bs-target='#carouselExample' data-bs-slide='next'>
+  <button id='nextc' className='carousel-control-next' type='button' data-bs-target='#carouselExample' data-bs-slide='next'>
     <span className='carousel-control-next-icon' aria-hidden='true'></span>
     <span className='visually-hidden'>Next</span>
   </button>

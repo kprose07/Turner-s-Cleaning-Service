@@ -1,6 +1,7 @@
+/*
 import React from 'react'
-import {useNavigate} from 'react-router-dom';
-
+import {Routes, Route, useNavigate} from 'react-router-dom';
+import Home from '../pages/Home'
 import logo from '../img/logo.png'
 import {LinkContainer} from 'react-router-bootstrap';
 import '../css/topNav.css'
@@ -13,7 +14,7 @@ const TopNavbar = () => {
 
   const navigateToContacts = () => {
     // 👇️ navigate to /contacts
-    navigate('/Quotes');
+    navigate('/Home');
   };
   
 
@@ -30,7 +31,7 @@ const TopNavbar = () => {
        </div>
        <div className="callAdd">
           <p>Call Today!</p>
-          <a style={{color: "inherit", textDecoration: "none", cursor: "inherit"}} href="tel:601-874-6359"><h2>601-874-6359</h2></a>
+          <h2>601-540-5659</h2>
        </div>
     </div>
     
@@ -40,5 +41,5 @@ const TopNavbar = () => {
 export default TopNavbar
 
 
-
+*/
 
