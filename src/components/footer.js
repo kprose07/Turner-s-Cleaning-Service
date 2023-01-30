@@ -34,7 +34,7 @@ export default function App() {
         
           <MDBCol md="3" lg="4" xl="3" id='colOne' className='mx-auto mb-4'>
           <Link to="/Home">
-          <img src={logo}></img>
+          <img src={logo} alt='logimg'></img>
           </Link>
           
             <p>

@@ -1,13 +1,15 @@
 import React from 'react'
 //import headshot from '../img/test.png'
 //import bg from '../img/cleanone.png'
+<<<<<<< HEAD
 import { Link } from 'react-router-dom'
 import Contact from '../components/chontact'
+=======
+import { Link } from 'react-router-dom';
+>>>>>>> 8c78ecd4f8afb167f4b7da73ca82f93cc7de7705
 
 
 function homePartTwo() {
-  
-
   return (
     <>
 
@@ -46,7 +48,34 @@ tailor to your needs, please contact us!</p>
               View Services
             </Link>
         </div>
-      <Contact />
+        <div className='rowTwo'>
+        <div className="containerThree">  
+  <form id="contact" action="" method="post">
+    <h3>Contact Us Today!</h3>
+    <h4>Contact us for custom quote/questions</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabIndex="1" required/>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabIndex="2" required/>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number (optional)" type="tel" tabIndex="3" required/>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site (optional)" type="url" tabIndex="4" required/>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your message here...." tabIndex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+    <p className="copyright">© Turner's Cleaning LLC <Link to="/Contact" target="_blank" title="Contact">Contacts</Link></p>
+  </form>
+</div>
+        </div>
+    
     </div>
     </>
   )

@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/equipment.css'
 import imgo from '../img/eqb.png'
-import imbg from '../img/eq.png'
+//import imbg from '../img/eq.png'
 import header from '../img/head.png'
 import cr from '../img/cr.png'
 
